@@ -1,11 +1,8 @@
-
-
-#To run streamlit use command -> streamlit run stream.py
-
 import streamlit as st
 import pandas as pd
 import numpy as np
 import time
+
  
 st.title("5 Minutes Engineering(Title)")
 st.header("5 Minutes Engineering(Header)")
@@ -14,7 +11,7 @@ st.write("5 Minutes Engineering(Text)")
 st.markdown("5 Minutes Engineering(Markdown)")
 st.caption("5 Minutes Engineering(Caption)")
 
-st.image("bot2.jpg")
+st.image("xyz.jpg")
 st.audio("speech.wav")
 st.video("abc.mkv")
 
